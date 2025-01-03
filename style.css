@@ -70,11 +70,11 @@ body{
     margin-right: 2px;
     user-select: none;
     -webkit-user-select: none;
-    touch-action: manipulation;
     width: fit-content;
     word-break: break-word;
     background-color: white;
     transition:all 0.2s ease-in-out;
+    touch-action: manipulation;
 }
 
 .login-btn:hover {
