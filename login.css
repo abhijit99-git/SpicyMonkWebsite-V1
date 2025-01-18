@@ -18,6 +18,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('Backgrounds/vecteezy_muted-tones-twist-in-delightful-gradients-crafting-a-serene_.jpg');
+    background-position: center;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
     min-height: 100vh;
     margin: 0;
 }
@@ -66,6 +71,7 @@ p {
     margin-bottom: 15px;
 }
 
+
 .input-container input {
     border: none;
     outline: none;
@@ -79,6 +85,7 @@ p {
 .input-container input::placeholder {
     color: #aaa;
 }
+
 
 .continue {
     background-color: hwb(0 19% 81%);

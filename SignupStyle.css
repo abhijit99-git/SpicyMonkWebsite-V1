@@ -12,12 +12,16 @@
     color: #3f3f3f;
   }
 
+  
+
   body {
     font-family: Arial, sans-serif;
     background-color: #fff;
-    /* background-image: url('Backgrounds/gradient-wallpapers-HqIrrjk3fbM-unsplash.jpg');
+    background-image: url('Backgrounds/vecteezy_muted-tones-twist-in-delightful-gradients-crafting-a-serene_.jpg');
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +36,7 @@
     max-width: 400px;
   }
 
+  
   .text-font{
     font-family: "Poppins", serif;
     font-weight: 400;
