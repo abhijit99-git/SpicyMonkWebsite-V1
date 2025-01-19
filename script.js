@@ -18,6 +18,9 @@ function verify() {
             document.getElementById('warn').style.background = '#ffd3d3';
             return false;  
         }  
+
+        const check=document.getElementById('terms');
+        console.log(check.value);
         document.location.href = 'signup-next.html';
     }
 }
