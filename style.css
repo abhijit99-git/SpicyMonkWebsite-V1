@@ -251,7 +251,7 @@ body{
     width: 100%;
     height: 35%;
     position: relative;
-
+    animation-duration: 2s;
 }
 
 .description{
@@ -260,6 +260,7 @@ body{
     height: 100%;
     justify-content: center;
     align-items: flex-start;
+    animation-duration: 1.5s;
 
 }
 .header{
