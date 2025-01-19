@@ -33,9 +33,9 @@ html{
 }
 
 body{
-    font-family: "Poppins", serif;
+    /* font-family: "Poppins", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; */
     /* background-color: hwb(0 9% 91%); */
 }
 
@@ -57,15 +57,6 @@ body{
     }
     100%{
         transform: translateY(0);
-    }
-}
-
-@keyframes slide-up{
-    0%{
-        transform: translateY(100%);
-    }
-    100%{
-        transform: translateY(-30%);
     }
 }
 
@@ -146,7 +137,6 @@ body{
     top: 32%;
     font-size: 16px;
     padding: 10px 22px;
-    animation: fadeIn-button 1.2s;
     margin-top: 20px;
 }
 .sign{
@@ -221,19 +211,20 @@ body{
     font-weight: 900;
     font-style: normal; 
     color: white;
-    animation: fadeIn 1.5s forwards;
+    /* animation: fadeIn 1.5s forwards; */
 }
+
+
 
 .second-text{
     position: relative;
     top: 13vh;
     left: 17px;
-
     font-size: 95px;
     font-weight: 900;
     font-style: normal; 
     color: white;
-    animation: fadeIn 1.5s forwards;
+    /* animation: fadeIn 1.5s forwards; */
 }
 
 .description-text{
@@ -244,31 +235,11 @@ body{
     font-weight: 400;
     font-style: normal; 
     color: hwb(0 52% 48% / 0.802);
-    animation: fadeIn 1.5s ease forwards;
     display: inline-block; 
     max-width: 80%;
     text-align: center; 
 }
 
-@keyframes fadeIn{
-    from{
-        left:-40%;
-    }
-    to{
-       left: 15px;
-    }
-}
-
-@keyframes fadeIn-button {
-    from {
-        opacity: 0%;
-        left: -40%;
-    }
-    to {
-        opacity: 100%;
-        left: 0;
-    }
-}
 .unique-text{
     font-family: "Mr Dafoe", serif;
     font-weight: 400;
@@ -298,18 +269,6 @@ body{
     background-color: rgb(25, 25, 25);
     width: 100%;
     height: 100vh;
-}
-
-@keyframes breathe-background{
-    /* 0%{
-        background-color: hsl(0, 0%, 7%);
-    }
-    50%{
-        background-color: hwb(0 13% 87%);
-    }
-    100%{
-        background-color: hsl(0, 0%, 7%);
-    } */
 }
 
 
