@@ -6,11 +6,16 @@ document.getElementById('hamburger').addEventListener('click', function() {
 function verify() {
     const email = document.getElementById('email');
     var warning = document.getElementById('warning');
+    var ischecked = document.getElementById('terms').checked;
     if (email.value == "") {
         document.getElementById('warn').style.background = '#ffd3d3';
         email.placeholder = "Email is required!"; 
         return false;
     } else {
+        if (!ischecked) {
+            document.getElementById('error').style.display='flex';
+            return false;
+        }
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  
         if (!emailRegex.test(email.value)) {  
             email.value = ""; 
@@ -18,9 +23,7 @@ function verify() {
             document.getElementById('warn').style.background = '#ffd3d3';
             return false;  
         }  
-
-        const check=document.getElementById('terms');
-        console.log(check.value);
+        document.getElementById('error').style.display='none';
         document.location.href = 'signup-next.html';
     }
 }
