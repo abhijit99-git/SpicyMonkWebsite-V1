@@ -1,4 +1,4 @@
-# 🌶️ SpicyMonk - Food Truck Website
+# 🌶️ SpicyMonk - Food Truck Website (Backup repo - Main repo private due to secret keys)
 
 SpicyMonk is a modern and dynamic food truck web application built with PHP and MySQL. It allows customers to browse and place orders, while giving administrators powerful tools to manage products, track orders, send notifications, and generate reports.
 
